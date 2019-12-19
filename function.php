@@ -4,9 +4,9 @@ require __DIR__ . '/vendor/autoload.php';
 use Automattic\WooCommerce\Client;
 use Automattic\WooCommerce\HttpClient\HttpClientException;
 $woocommerce = new Client(
-    'http://order.mewah.ml', // Your store URL
-    'ck_b5e23b35c1e54999a3a4ca299efe9b50b25fa8dd', // Your consumer key
-    'cs_853692310534bb6af867f4ad49c95e1fac1c6a71', // Your consumer secret
+    '', // Your store URL
+    '', // Your consumer key
+    '', // Your consumer secret
     [
         'wp_api' => true, // Enable the WP REST API integration
         'version' => 'wc/v2' // WooCommerce WP REST API version
